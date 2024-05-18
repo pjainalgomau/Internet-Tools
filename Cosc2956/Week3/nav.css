@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* pushing the elements as far apart as possible */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    /* no number, no dot */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin-right: 15px;  /* spacing */
+  }
+  
+  .navbar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar ul li a {
+    color: #fff;
+    text-decoration: none; /* no underline */
+  }
+  
