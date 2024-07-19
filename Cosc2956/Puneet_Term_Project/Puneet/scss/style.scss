@@ -1,0 +1,107 @@
+.container-fluid {
+  background-color: #0c193b;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  margin: 0;
+  background-color: #0c193b;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: white;
+  color: #333;
+  text-align: center;
+  bottom: 0;
+  padding-block: 10px;
+  font-size: 1.5rem;
+}
+
+.index-img {
+  background-image: url("/assets/index-img.webp");
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.middle-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border: 0;
+  gap: 1em;
+  background-color: #0c193b;
+}
+
+.card-itm {
+  flex: 1 1 200px;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 1.5rem;
+  background-color: #c1deff;
+}
+
+.card-img {
+  height: 80%;
+  width: 100%;
+  object-fit: cover;
+  padding: 1rem;
+}
+
+.bottom-container {
+  display: flex;
+  gap: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bi-container {
+  flex: 1 1;
+  background-color: #c1deff;
+  border: 1px solid black;
+  border-radius: 2rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+.table-column {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+}
+
+body {
+  font-family: "Bubblegum Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
